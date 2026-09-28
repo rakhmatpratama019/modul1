@@ -241,7 +241,7 @@ int main() {
 
 ##### Output
 
-![Screenshot Output Unguided 3](output/soal3.png)
+![Screenshot Output Unguided 3](Soal3.png)
 
 Contoh hasil eksekusi (input 3):
 
