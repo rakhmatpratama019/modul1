@@ -40,7 +40,6 @@ int main() {
     cout << "Hasil pengurangan : " << a << " - " << b << " = " << selisih << endl;
     cout << "Hasil perkalian   : " << a << " * " << b << " = " << kali << endl;
 
-    // pembagian: pembagi tidak boleh nol
     if (b != 0) {
         bagi = a / b;
         cout << "Hasil pembagian   : " << a << " / " << b << " = " << bagi << endl;
@@ -93,7 +92,6 @@ Alur program:
 #include <iostream>
 using namespace std;
 
-// mencetak tulisan angka 1 sampai 9
 void cetakSatuan(int n) {
     switch (n) {
         case 1: cout << "satu";   break;
@@ -212,20 +210,16 @@ int main() {
     cout << "output:" << endl;
 
     for (int baris = n; baris >= 0; baris--) {
-        // spasi di depan agar bentuk menjadi rata tengah (piramida)
         for (int s = 0; s < (n - baris) * 2; s++) {
             cout << " ";
         }
 
-        // sisi kiri: angka menurun dari baris sampai 1
         for (int i = baris; i >= 1; i--) {
             cout << i << " ";
         }
 
-        // tanda pemisah tengah
         cout << "*";
 
-        // sisi kanan: angka menaik dari 1 sampai baris
         for (int i = 1; i <= baris; i++) {
             cout << " " << i;
         }
