@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Nama** | [RAKHMAT_PRATAMA] |
+| **Nama** | [RAKHMAT PRATAMA] |
 | **NIM** | [109082530037] |
 | **Kelas** | [S1IF-13-01] |
 | **Mata Kuliah** | Struktur Data |
